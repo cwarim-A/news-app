@@ -1,0 +1,29 @@
+.news-container{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 300px;
+    overflow: hidden;
+    transition: 0.5s;
+    animation: ease-in;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.news-container:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+.img-container > img{
+    overflow: hidden;
+    width: 300px;
+    height:200px;
+}
+.card-content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+h3,p{
+    margin: 0;
+    padding: 0;
+}
